@@ -1,0 +1,69 @@
+ mkdir Assess_0018
+  503  pwd
+  504  cd Assess_0018
+  505  mkdir img
+  506  git init
+  507  vi one.c
+  508  vi one.txt
+  509  vi one.html
+  510  git add .
+  511  git commit -m" All three files are changed and commited "
+  512  git log
+  513  vi one.c
+  514  git add .
+  515  git commit -m " Only c file is modified and commited "
+  516  git log
+  517  vi one.txt
+  518  vi one.txt
+  519  vi one.html
+  520  git add .
+  521  git commit -m " Both txt file and html file is modified and commited "
+  522  git log
+  523  vi one.img
+  524  git status
+  525  git log --oneline
+  526  git remote add origin https://github.com/AwasthiAkshit/Assess_0018.git
+  527  git branch -M master
+  528  git push -u origin master
+  529  vi.gitignore
+  530  vi .gitignore
+  531  git status
+  532  git add .
+  533  git commit -m "image file is ignored in main folder"
+  534  cd img
+  535  vi .gitignore
+  536  vi one.c
+  537  cp -r * img/
+  538  cd ..
+  539  cp -r * img/
+  540  cp -r * Assess_0018/
+  541  cd img
+  542  cp -r * Assess_0018/
+  543  cp -r * img/
+  544  cp -r * one.c/
+  545  cp -r * .c/
+  546  cp -r * Assess_0018/
+  547  $ cp -r * Assess_0018/
+  548  cp: target 'Assess_0018/' is not a directory
+  549  ls
+  550  vi one.html
+  551  cat one.c
+  552  cat one.html
+  553  cat one.txt
+  554  vi one.c
+  555  vi one.html
+  556  vi one.txt
+  557  git staus
+  558  git status
+  559  vi .gitignore
+  560  git add .
+  561  git commit -m "all files are ignored"
+  562  git status
+  563  ls
+  564  cd ..
+  565  vi one.png
+  566  vi one.png
+  567  vi log.txt
+  568  history
+
+
